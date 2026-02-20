@@ -1,46 +1,45 @@
-name: 自动部署20260211版
+# GitHub Actions 配置文件：用于自动部署 Hexo 博客
+name: Deploy Hexo
 
+# 当 main 分支被 push 时触发部署流程
 on:
   push:
     branches:
       - main
-  workflow_dispatch:
 
 jobs:
   deploy:
+    # 使用最新版 Ubuntu 运行环境
     runs-on: ubuntu-latest
+
+    # 允许对仓库内容进行写操作（git push）
+    permissions:
+      contents: write
+
     steps:
-    - name: 检查分支
-      uses: actions/checkout@v4
+      # Step 1：检出仓库源码
+      - uses: actions/checkout@v4
 
-    - name: 安装 Node
-      uses: actions/setup-node@v4
-      with:
-        node-version: "22"
-        cache: 'npm'
+      # Step 2：设置 Node.js 环境
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 24
 
-    - name: 安装依赖
-      run: |
-        export TZ='Asia/Shanghai'
-        npm install hexo-cli -g
-        npm install
-        npm install hexo-generator-search --save
+      # Step 3：安装依赖
+      - name: Install dependencies
+        run: npm install
 
-    - name: 生成静态文件
-      run: |
-        hexo clean
-        hexo generate
+      # Step 4：生成 Hexo 静态文件
+      - name: Generate Hexo static files
+        run: npx hexo generate
 
-    - name: 配置 SSH 密钥
-      uses: webfactory/ssh-agent@v0.9.0
-      with:
-        ssh-private-key: ${{ secrets.DEPLOY_KEY }}
-
-    - name: 配置 Git 用户信息并部署
-      run: |
-        mkdir -p ~/.ssh
-        ssh-keyscan github.com >> ~/.ssh/known_hosts
-        git config --global user.email "super_ye@outlook.com"
-        git config --global user.name "Super-Yyt"
-        # 使用 npx 确保调用的是当前目录安装的 hexo
-        npx hexo deploy
+      # Step 5：部署到 gh-pages 分支
+      - name: Deploy to gh-pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          personal_token: ${{ secrets.PERSONAL_TOKEN }}
+          publish_branch: gh-pages
+          publish_dir: ./public
+          user_name: Super-Yyt
+          user_email: super_ye@outlook.com
