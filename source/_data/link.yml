@@ -12,25 +12,14 @@
       descr: 生活明朗，万物可爱
       siteshot: https://npm.elemecdn.com/anzhiyu-theme-static@1.1.6/img/hexo.anheyu.com.jpg
 
-- class_name: 推荐博客
+- class_name: 友链
   flink_style: telescopic
   hundredSuffix: ""
   link_list:
     - name: 安知鱼
-      link: https://hexo.anheyu.com/
-      avatar: https://npm.elemecdn.com/anzhiyu-blog-static@1.0.4/img/avatar.jpg
-      descr: 生活明朗，万物可爱
-      siteshot: https://npm.elemecdn.com/anzhiyu-theme-static@1.1.6/img/hexo.anheyu.com.jpg
+      link: https://dalao.net/
+      avatar: https://www.dalao.net/img/dalao-svg.svg
+      descr: 大佬论坛没大佬，老婆饼里没老婆
+      siteshot: https://www.dalao.net/img/dalao-svg.svg
       color: vip
       tag: 技术
-
-- class_name: 小伙伴
-  class_desc: 那些人，那些事
-  flink_style: anzhiyu
-  hundredSuffix: ""
-  link_list:
-    - name: 安知鱼
-      link: https://hexo.anheyu.com/
-      avatar: https://npm.elemecdn.com/anzhiyu-blog-static@1.0.4/img/avatar.jpg
-      descr: 生活明朗，万物可爱
-      recommend: true
