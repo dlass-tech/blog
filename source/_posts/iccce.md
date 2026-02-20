@@ -5,7 +5,7 @@ date: '2026-02-20T18:51:51.739384+08:00'
 tags: []
 title: InkCanvasForClass
 top_img: https://icc-ce.inkeys.top/icc.png
-updated: '2026-02-20T19:37:31.208+08:00'
+updated: '2026-02-20T22:10:44.849+08:00'
 ---
 # InkCanvasForClass
 
@@ -26,6 +26,8 @@ uk站:https://iccce.edicdn.eu.org/
 dp站:https://www.iccce.dpdns.org/
 
 dp站为官方站，其余为备用站。
+
+dy下载:https://drive.dy.ci/Icc-ce
 
 QQ群:1054377349
 
