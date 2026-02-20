@@ -24,6 +24,7 @@ jobs:
         export TZ='Asia/Shanghai'
         npm install hexo-cli -g
         npm install
+        npm install hexo-deployer-git --save
         npm install hexo-generator-search --save
 
     - name: 生成静态文件
