@@ -4,7 +4,8 @@ categories: []
 date: '2026-02-20T18:51:51.739384+08:00'
 tags: []
 title: InkCanvasForClass
-updated: '2026-02-20T19:04:03.649+08:00'
+top_img: https://icc-ce.inkeys.top/icc.png
+updated: '2026-02-20T19:37:31.208+08:00'
 ---
 # InkCanvasForClass
 
