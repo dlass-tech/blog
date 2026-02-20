@@ -23,12 +23,12 @@ nav:
       item:
         - name: 博客
           link: https://dy.ci/
-          icon: https://free.picui.cn/free/2026/02/20/6998150a4bf52.png
+          icon: https://free.picui.cn/free/2026/02/20/699819281e93b.png
     - title: 项目
       item:
         - name: zhaishis/dlass
           link: https://dlass.tech/
-          icon: https://free.picui.cn/free/2026/02/20/6998150a4bf52.png
+          icon: https://free.picui.cn/free/2026/02/20/699819281e93b.png
 
 # mourn （哀悼日，指定日期网站简单变灰，不包括滚动条）
 # 注意： 仅网站首页变灰，其他页面正常显示
