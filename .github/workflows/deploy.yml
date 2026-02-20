@@ -1,0 +1,46 @@
+name: 自动部署20260211版
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - name: 检查分支
+      uses: actions/checkout@v4
+
+    - name: 安装 Node
+      uses: actions/setup-node@v4
+      with:
+        node-version: "24"
+        cache: 'npm'
+
+    - name: 安装依赖
+      run: |
+        export TZ='Asia/Shanghai'
+        npm install hexo-cli -g
+        npm install
+        npm install hexo-generator-search --save
+
+    - name: 生成静态文件
+      run: |
+        hexo clean
+        hexo generate
+
+    - name: 配置 SSH 密钥
+      uses: webfactory/ssh-agent@v0.9.0
+      with:
+        ssh-private-key: ${{ secrets.DEPLOY_KEY }}
+
+    - name: 配置 Git 用户信息并部署
+      run: |
+        mkdir -p ~/.ssh
+        ssh-keyscan github.com >> ~/.ssh/known_hosts
+        git config --global user.email "super_ye@outlook.com"
+        git config --global user.name "Super-Yyt"
+        # 使用 npx 确保调用的是当前目录安装的 hexo
+        npx hexo deploy
