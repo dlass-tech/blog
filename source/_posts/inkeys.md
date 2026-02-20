@@ -5,19 +5,21 @@ date: '2026-02-20T20:31:29.809829+08:00'
 tags: []
 title: Inkeys
 top_img: https://1709404.v.123pan.cn/1709404/Inkeys/Website/public/Inkeys.svg
-updated: '2026-02-20T20:31:30.613+08:00'
+updated: '2026-02-20T22:08:41.876+08:00'
 ---
-# Inkeys
+# Inkeys网站地址
 
-智绘教(Inkeys)是一款适用于 Windows 桌面的悬浮窗画笔程序，高效绘制和丰富功能，只为尽可能地提供课堂教学效率。 适用于触摸屏设备和PC端。 智绘教项目创立于 2023 年 2 月，由于班上一体机自带的画板程序并不好用，于是智绘教应运而生。 智绘教通过长期教师的使用反馈，反复打磨，并高速发展。 是一款运行于 Windows 平台的软件，无需安装即可使用。
+将你的创意随心所欲地书写在屏幕的任意角落。智绘教Inkeys 拥有丝滑流畅的高性能画笔、丰富强大的功能，以及众多贴心小设计，全面提升你的效率与使用体验。 | Unleash your creativity by writing anywhere on your screen with ease. Inkeys brings you ultra-smooth, high-performance brushes, a powerful array of features, and numerous thoughtful design touches to elevate your efficiency and user experience.
 
-### 网站地址
+### 网站链接
 
 ik官网:https://www.inkeys.top/
 
 dy站点:https://inkeys.dy.ci/
 
 dy站不一定提供稳定的下载通道
+
+dy下载:https://drive.dy.ci/Inkeys
 
 ### 联系他们
 
