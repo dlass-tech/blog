@@ -18,4 +18,4 @@ gh仓库:https://github.com/ZeroCatDev/Classworks
 
 dy站点:https://classworks.dy.ci
 
-gh仓库:https://github.com/TeachAppWebsite/Classworks_taw
+gh仓库:https://github.com/TeachAppWebsite/classworks.dy.ci
