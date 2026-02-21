@@ -4,7 +4,7 @@ categories: []
 date: '2026-02-21T13:49:48.392084+08:00'
 tags: []
 title: 看完！白板标签页！
-updated: '2026-02-21T13:49:49.291+08:00'
+updated: '2026-02-21T21:30:55.602+08:00'
 ---
 # Welcome!
 
@@ -16,4 +16,4 @@ https://welcome.dy.ci
 
 原仓库:https://github.com/prem-k-r/MaterialYouNewTab
 
-现仓库:https://github.com/TeachAppWebsite/MaterialYouNewTab-Html
+现仓库:https://github.com/TeachAppWebsite/welcome.dy.ci
