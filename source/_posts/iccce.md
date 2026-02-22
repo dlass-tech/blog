@@ -5,9 +5,11 @@ date: '2026-02-20T18:51:51.739384+08:00'
 tags: []
 title: InkCanvasForClass
 top_img: https://icc-ce.inkeys.top/icc.png
-updated: '2026-02-20T22:10:44.849+08:00'
+updated: '2026-02-22T08:31:53.595+08:00'
 ---
 # InkCanvasForClass
+
+加入频道:https://utopia.pm/channels/aj0kq1ogkd
 
 Community Edition
 
