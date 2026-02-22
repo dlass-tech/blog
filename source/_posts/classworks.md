@@ -4,9 +4,11 @@ categories: []
 date: '2026-02-21T21:01:36.182282+08:00'
 tags: []
 title: Classworks
-updated: '2026-02-21T21:41:31.434+08:00'
+updated: '2026-02-22T08:30:56.690+08:00'
 ---
 # Classworks
+
+加入频道:https://utopia.pm/channels/aj0kq1ogkd
 
 适用大屏的作业展示工具
 
