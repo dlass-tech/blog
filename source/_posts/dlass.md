@@ -4,9 +4,11 @@ categories: []
 date: '2026-02-20T16:45:11.064873+08:00'
 tags: []
 title: Dlass教程
-updated: '2026-02-20T16:45:11.727+08:00'
+updated: '2026-02-22T08:31:11.136+08:00'
 ---
 # Dlass 系统使用说明
+
+加入频道:https://utopia.pm/channels/aj0kq1ogkd
 
 ## 访问与登录
 
