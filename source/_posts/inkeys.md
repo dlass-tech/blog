@@ -1,11 +1,13 @@
 ---
 abbrlink: ''
-categories: []
+categories:
+- - 教软
 date: '2026-02-20T20:31:29.809829+08:00'
-tags: []
+tags:
+- 教软
 title: Inkeys
 top_img: https://1709404.v.123pan.cn/1709404/Inkeys/Website/public/Inkeys.svg
-updated: '2026-02-22T08:32:10.043+08:00'
+updated: '2026-02-22T19:55:32.148+08:00'
 ---
 # Inkeys网站地址
 
