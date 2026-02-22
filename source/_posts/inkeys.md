@@ -5,9 +5,11 @@ date: '2026-02-20T20:31:29.809829+08:00'
 tags: []
 title: Inkeys
 top_img: https://1709404.v.123pan.cn/1709404/Inkeys/Website/public/Inkeys.svg
-updated: '2026-02-20T22:08:41.876+08:00'
+updated: '2026-02-22T08:32:10.043+08:00'
 ---
 # Inkeys网站地址
+
+加入频道:https://utopia.pm/channels/aj0kq1ogkd
 
 将你的创意随心所欲地书写在屏幕的任意角落。智绘教Inkeys 拥有丝滑流畅的高性能画笔、丰富强大的功能，以及众多贴心小设计，全面提升你的效率与使用体验。 | Unleash your creativity by writing anywhere on your screen with ease. Inkeys brings you ultra-smooth, high-performance brushes, a powerful array of features, and numerous thoughtful design touches to elevate your efficiency and user experience.
 
