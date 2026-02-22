@@ -1,11 +1,12 @@
 ---
 abbrlink: ''
 categories: []
+cover: https://drive.dy.ci/d/%E6%95%99%E8%BE%85%E8%BD%AF%E4%BB%B6/%E5%9B%BE%E5%BA%8A/iccce-icon.png?sign=kE2ZpMbCMQ27ik8AtDDNShGjjCQj2ZakB_3ZWfI9xI0=:0
 date: '2026-02-20T18:51:51.739384+08:00'
 tags: []
 title: InkCanvasForClass
 top_img: https://icc-ce.inkeys.top/icc.png
-updated: '2026-02-22T08:31:53.595+08:00'
+updated: '2026-02-22T13:30:05.576+08:00'
 ---
 # InkCanvasForClass
 
