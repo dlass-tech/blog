@@ -28,6 +28,7 @@ jobs:
 
       # Step 3：安装依赖
       - name: Install dependencies
+        run: npm install hexo-generator-search --save
         run: npm install
 
       # Step 4：生成 Hexo 静态文件
