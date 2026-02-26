@@ -128,6 +128,12 @@ envelope_comment:
     top_img: false
     type: envelope
 
+search:
+  path: search.xml
+  field: post
+  content: true
+  template: ./search.xml
+
 algolia_search:
   enable: false
   # 下面这些可以先不填，或者随便填个假的也行
