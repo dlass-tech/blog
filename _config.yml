@@ -122,7 +122,7 @@ envelope_comment:
   bottom: 自动书记人偶竭诚为您服务！ #仅支持单行文本
   height: #1024px，信封划出的高度
   path: #【可选】comments 的路径名称。默认为 comments，生成的页面为 comments/index.html
-  front_matter: #【可选】comments页面的 front_matter 配置
+  front_matter: #comments页面的 front_matter 配置
     title: 留言板
     comments: true
     top_img: false
